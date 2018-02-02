@@ -8,6 +8,7 @@ if((a>b)&&(a>c))
 printf("a is greater");
 else if(b>c)
 printf("b is greater");
-else("c is greater");
+else
+  printf("c is greater");
 return 0;
 }
