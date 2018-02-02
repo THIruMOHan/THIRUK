@@ -2,14 +2,14 @@
 #include<conio.h>
 int main()
 {
-char a[5]={'a','e','i','o','u'};
-char b;
-printf("ENTER YOUR LETTER");
-scanf("%c",&b);
-if(a&&b)
-printf("its vowel");
+clrscr();
+char vowel;
+printf ("enter the letter")
+scanf("%c",&vowel);
+if (vowel=='a'!!vowel=='e'!!vowel=='i'!!vowel=='o'!!vowel=='u')
+printf("vowel");
 else
-printf("no..no..its not a vowel...");
+printf("consonant");
 getch();
-return 0;
+  return 0;
 }
