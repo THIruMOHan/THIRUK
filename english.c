@@ -4,8 +4,8 @@ int main(void)
 {
 	int num;
 	printf("\n enter the number from 1 to 10");
-	scanf("%d",&num);
-	switch(num)
+	scanf("%d",&n);
+	switch(n)
 	{
 		case 1:
 		printf("\none");
